@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<!-- PERSONAL NOTES:
+	1. Summarize front page paragraphs
+	2. Edit h2 sizes/content
+	3. Mess with how images fit 
+	6. Rename styles sheet, change on all web pages
+	7. Fix layout of contact page
+	8. Check assignment requirements again
+	9. Make site content responsive (images must be)
+-->
+
+<html>
+
+<head>
+<!-- HOMEPAGE DESKTOP -->
+
+	<title>Simply... Arts - Home</title>
+	
+	<link rel="stylesheet" href="nav.css">
+
+	<link rel="stylesheet" href="Assignment4styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+	
+	<meta charset="UTF-8">
+	<meta name="description" content="promoting artists, teaching, learning, diy, tutorials">
+	<meta name="keywords" content="art, artists, artist-made, new art, small business, informational art, DIY, crafts, tutorials">
+	<meta name="author" content="Nina K. Murphy">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+	<style>
+		
+		<!--FONT FAMILY-->
+		h1 {
+			font-family: 'Lobster Two', cursive;
+		}
+		
+		<!-- Font change external styles sheet-->
+		h2 {
+			font-size: 40px;
+			word-spacing: 5px;
+			text-align: center;
+		}
+	
+		.item1 { grid-area: one; }
+		.item2 { grid-area: two; }
+		.item3 { grid-area: three; }
+		.item4 { grid-area: top; }
+		.item5 { grid-area: five; }
+		.item6 { grid-area: six; }
+		.item7 { grid-area: seven; }
+		.item8 { grid-area: bottom; }
+
+		.ui-grid-a {
+			width: 48%;
+			float: left;
+			display: grid;
+			grid-template-columns: auto auto <!--300px 200px;-->
+			grid-template-rows: 300px 200px;
+			grid-template-areas:
+				'one one one'
+				'two two two'
+                'three three three';
+			grid-gap: 10px;
+			background-color: #4A0D73;
+			padding: 10px;
+		}
+		
+		.ui-grid-a > div {
+			background-color: #EFEDFE;
+			text-align: left;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 15px;
+			padding-bottom: 50px;
+		}	
+		
+		.ui-grid-b {
+			width: 48%;
+			float: right;
+			display: grid;
+			grid-template-columns: auto auto;
+			grid-template-rows: auto auto;
+			grid-template-areas:
+				'top top top'
+				'five six seven'
+				'five six seven'
+                'bottom bottom bottom';
+			grid-gap: 10px;
+			background-color: #4A0D73;
+			padding: 10px;
+		}
+
+		.ui-grid-b > div {
+			background-color: #EFEDFE;
+			text-align: left;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-top: 15px;
+			padding-bottom: 15px; <!--fix padding bottom-->
+		}
+		
+		.clear {clear:both}
+		
+	</style>
+	
+</head>
+
+<body>
+<!-- Top Navigation Menu -->
+	<div class="topnav">
+		<a href="#nav" class="active">Home</a>
+			<div id="myLinks">
+				<a href="index.html">Home</a>
+				<a href="layout_two.html">Learning</a>
+				<a href="layout_three.html">Artists</a>
+				<a href="layout_four.html">Showcased Art</a>
+				<a href="layout_five.html">Contact Info</a>
+			</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<header>
+
+		<h1><i class="fab fa-mix"></i>Simply... Arts</h1>
+			<h2>Painting | Pyrography | Needle Felting | Sticker Art</h2>
+			
+	</header>
+	
+
+<script src="https://kit.fontawesome.com/f9754e08c7.js" crossorigin="anonymous"></script>
+
+	<div class="ui-grid-a">
+			<div class="item1">
+				<h1>Mission Statement:</h1> <!-- shorten this shit -->
+				<h2>Supporting and exposing small artists while teaching new ways to create!</h2>
+					<p>There are many websites out there already dedicated to the exposure and monetization of artists, whether small, well-known, 
+					and all in-between. What we have noticed is the lack of exposure for the sole purpose of exposing and supporting the artists 
+					themselves lately. What we are referring to is the large presense of <!-- sponsorships and advertisements - whether welcome or not. 
+					The issue with this is that the profit the artists are supposedly making for themselves to pay for the expenses of creating and 
+					a topped off payout for their own income isn't what we believe it to be. Lately some websites have been taking a large percentage 
+					of profit from the artist for placing unwanted advertisements in a predatory sense which may be unbeknownst to the artist themselves. 
+					Here we are dedicated to directly exposing each artist, along with teaching our audience about each craft and how they can do it 
+					themselves through mentorship/advice and personal contact! -->
+			</div>
+			
+		<div class="item2">
+				<h1>Our Vision:</h1>
+				<p>Originally inspired by <a href="https://www.artfinder.com/#/">ArtFinder</a>, we really appreciate 
+				the idea of being able to quickly find independent artists and their work, how to support each artist, 
+				and add ways that you can recreate your own version of art without confusion.
+</p>
+			</div>
+			
+		<div class="item3">
+				<h1>Our Audience:</h1>
+				<p>The audience that we hope to reach includes those that are exploring different ways to craft, looking for mentors, 
+				or just looking for a gift for the holidays!</p>
+			</div>
+				
+	</div>
+
+    <div class="ui-grid-b">
+			<div class="item4">
+				<h1>Our goals and what we do:</h1>
+				<h2>Our main goal is simple: exposure exposure exposure!</h2>
+					<p>We can't wait to show you the artists we've partnered with and possibly work with you some day! Here is a 
+					safe place to explore art, practice craft, ask questions, and support independent artists with their small
+					businesses.</p>
+			</div>
+			
+			<div class="item5">
+				<img src="images/tree.jpeg" width = "190" height = "200">
+			</div>
+			
+			<div class="item6">
+				<img src="images/SpaghettiHand.jpg" width = "200" height = "170">
+			</div>
+			
+			<div class="item7">
+				<img src="images/Baby-Yoda.jpg" width = "200" height = "200">
+			</div>
+			
+			<div class="item8">
+				<h1>What we will learn:</h1>
+				<h2>Painting | Pyrography | Needle Felting | Sticker Art</h2>
+				<p>We will learn about the basic definitions of each art form and recommendations/tips for creating
+				on your own.</p>
+			</div>
+	</div>
+	
+	<br> 
+	
+	<div class="clear"></div>
+	
+	<br>
+	
+	<footer>
+		<p>Author/Creator: Nina K. Murphy</p>
+	</footer>
+	
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
+		
+		
