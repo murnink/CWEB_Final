@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Simply... Arts - Showcase</title>
+	
+	<link rel="stylesheet" href="nav.css">
+	
+	<link rel="stylesheet" href="Assignment4styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="promoting artists, teaching, learning, diy, tutorials">
+	<meta name="keywords" content="art, artists, artist-made, new art, small business, informational art, DIY, crafts, tutorials">
+	<meta name="author" content="Nina K. Murphy">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<style>
+		* {
+		  box-sizing: border-box;
+		}
+
+		body {
+		  margin: 0;
+		  font-family: Arial;
+		}
+
+		.header {
+		  text-align: center;
+		  padding: 32px;
+		}
+
+		/* Creates two equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 33%;
+		  padding: 10px;
+		}
+
+		.column img {
+		  margin-top: 12px;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+	</style>
+</head>
+
+<body>
+
+<!-- Navigation -->
+	<div class="topnav">
+		<a href="#nav" class="active">Showcase</a>
+			<div id="myLinks">
+				<a href="index.html">Home</a>
+				<a href="layout_two.html">Learning</a>
+				<a href="layout_three.html">Artists</a>
+				<a href="layout_four.html">Showcased Art</a>
+				<a href="layout_five.html">Contact Info</a>
+			</div>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+			<i class="fa fa-bars"></i>
+		</a>
+	</div>
+
+	<header>
+	
+		<h1><i class="fab fa-mix"></i>Simply... Art - See Their Work!</h1>
+		<h2>Painting | Pyrography | Needle Felting | Sticker Art</h2>
+			
+	</header>
+	
+<script src="https://kit.fontawesome.com/f9754e08c7.js" crossorigin="anonymous"></script>
+
+<!-- Photo Grid -->
+	<div class="row"> 
+	<div class="column">
+		<img src="images/pumpkin.jpeg" alt="Pumpkin Painting" style="width:100%">
+		<img src="images/skull.jpeg" alt="Skull Painting" style="width:100%">
+		<img src="images/tree.jpeg" alt="Tree Painting" style="width:100%">
+		<img src="images/flowers.jpeg" alt="Flowers Painting" style="width:100%">
+	</div>
+	
+	<div class="column">
+		<img src="images/Baby-Yoda.jpg" alt="Felted Baby Yoda" style="width:100%">
+		<img src="images/Baby-Penguins.jpg" alt="Felted Penguins" style="width:100%">
+		<img src="images/Baby-Pumpkin.jpg" alt="Felted Pumpkin Mini" style="width:100%">
+		<img src="images/scenic-woodburning.jpg" alt="Woodburned Mountains" style="width:100%">
+	</div>  
+		
+	<div class="column">
+		<img src="images/Cactus.jpeg" alt="Sticker Cactus" style="width:100%">
+		<img src="images/MushroomBabe1.jpeg" alt="Sticker Mushroom" style="width:100%">
+		<img src="images/BLM.jpeg" alt="Sticker BLM" style="width:100%">
+		<img src="images/MushroomBabe2.jpeg" alt="Sticker Mushroom" style="width:100%">
+		<img src="images/SpaghettiHand.jpg" alt="Sticker Spaghetti Hand" style="width:100%">
+		<img src="images/MushroomBabe3.jpeg" alt="Sticker Mushroom" style="width:100%">
+	</div>
+	
+</div>
+
+	<footer>
+		<p>Author/Creator: Nina K. Murphy</p>
+	</footer>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+</body>
+</html>
